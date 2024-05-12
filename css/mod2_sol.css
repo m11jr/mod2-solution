@@ -1,18 +1,21 @@
 body{
-    background-color: black;
+    background-color:bisque;
 }
 
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
   
 }
 
 h1{
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
     text-align: center;
+    font-size: 176%;
 }
 
 @media (min-width: 992px) {
@@ -27,11 +30,12 @@ h1{
 
 #Part-1 {
     position: relative;
-    width: 30%;
+    width: 31%;
     height: 400px;
-    background-color: brown;
+    background-color: gray;
     margin-top: 30px;
     float: left;
+    margin-left: 3px;
     border: 1px solid white;
     
 }
@@ -39,9 +43,9 @@ h1{
     
     width: 40%;
 height: 30px;
-background-color: white;
+background-color: pink;
 float: right;
-
+text-align: center;
 
 }
 #section1-description{
@@ -52,11 +56,11 @@ float: right;
 #Part-2 {
     position: relative;
 
-    width: 30%;
+    width: 31%;
     height: 400px;
-    background-color:brown;
+    background-color:gray;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 33px;
     float: left;
     
     
@@ -67,8 +71,9 @@ float: right;
     
     width: 40%;
 height: 30px;
-background-color: white;
+background-color: red;
 float: right;
+text-align: center;
 
 
 }
@@ -76,16 +81,18 @@ float: right;
     margin-bottom: 30px;
     clear: right;
     overflow: auto;
+    
 }
 #Part-3 {
-    width: 30%;
+    width: 31%;
     height: 400px;
-    background-color: brown;
+    background-color: gray;
     margin-top: 30px;
     float: left;
-    margin-left: 20px;
+    
     margin-top: 30px;
     border: 1px solid white;
+    margin-left: 34px;
 }
 #section3-inside{
     
@@ -93,7 +100,7 @@ float: right;
 height: 30px;
 background-color: white;
 float: right;
-
+text-align: center;
 
 }
 #section3-description{
@@ -115,7 +122,7 @@ float: right;
         position: relative;
         width: 45%;
         height: 400px;
-        background-color: brown;
+        background-color: gray;
         margin-top: 30px;
         float: left;
         margin-left: 20px;
@@ -126,22 +133,23 @@ float: right;
         
         width: 40%;
     height: 30px;
-    background-color: white;
+    background-color: pink;
     float: right;
-    
+    text-align: center;
     
     }
     #section1-description{
         margin-bottom: 30px;
         clear: right;
         overflow: auto;
+
     }
     #Part-2 {
         position: relative;
     
         width: 45%;
         height: 400px;
-        background-color:brown;
+        background-color:gray;
         margin-top: 30px;
         margin-left: 30px;
         float: left;
@@ -155,9 +163,9 @@ float: right;
         
         width: 40%;
     height: 30px;
-    background-color: white;
+    background-color: red;
     float: right;
-    
+    text-align: center;
     
     }
     #section2-description{
@@ -169,7 +177,7 @@ float: right;
         
         width: 90%;
         height: 400px;
-        background-color: brown;
+        background-color: gray;
         margin-top: 30px;
         float: left;
         
@@ -184,7 +192,7 @@ float: right;
     height: 30px;
     background-color: white;
     float: right;
-    
+    text-align: center;
     
     
     }
@@ -207,7 +215,7 @@ float: right;
             position: relative;
             width: 90%;
             height: 400px;
-            background-color: brown;
+            background-color: gray;
             margin-top: 30px;
             
             margin-left: 30px;
@@ -219,10 +227,10 @@ float: right;
             
             width: 40%;
         height: 30px;
-        background-color: white;
+        background-color: pink;
         float: right;
         overflow: auto;
-
+        text-align: center;
         
         
         }
@@ -236,7 +244,7 @@ float: right;
         
             width: 90%;
             height: 400px;
-            background-color:brown;
+            background-color:gray;
             margin-top: 30px;
             margin-left: 30px;
             overflow: auto;
@@ -251,9 +259,10 @@ float: right;
             
             width: 40%;
         height: 30px;
-        background-color: white;
+        background-color: red;
         float: right;
         overflow: auto;
+        text-align: center;
         
         
         }
@@ -266,7 +275,7 @@ float: right;
             
             width: 90%;
             height: 400px;
-            background-color: brown;
+            background-color: gray;
             margin-top: 30px;
             
             
@@ -283,6 +292,7 @@ float: right;
         background-color: white;
         float: right;
         overflow: auto;
+        text-align: center;
         }
           
         #section3-description{
